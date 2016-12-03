@@ -1,22 +1,33 @@
-
-
 /* ==========================================================================
-   Author's custom styles
+   Custom styles
    ========================================================================== */
+html {
+  background-image: url('http://www.truevaluemaintenance.com/img/wood.jpg');
+}
 
+body {
+  color: #FEF;
+  background: none;
+  text-align: center;
+}
 
+#mce-EMAIL {
+  width: 75%;
+  color: #333;
+  font-size: 3em;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+}
 
+#mc-embedded-subscribe {
+  width: 75%;
+  font-size: 2em;
+  line-height: 1;
+  margin: 1em auto;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+  background: rgba(0,0,0,0.5);
+}
