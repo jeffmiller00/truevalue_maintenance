@@ -2,18 +2,23 @@
    Custom styles
    ========================================================================== */
 html {
-  background-image: url('http://www.truevaluemaintenance.com/img/wood.jpg');
+  /*background-image: url('http://www.truevaluemaintenance.com/img/wood.jpg');*/
+  background-image: url('../img/wood.jpg');
 }
 
-body {
-  color: #FEF;
+body, a {
+  color: #333;
   background: none;
   text-align: center;
 }
 
+a {
+  text-decoration: underline;
+}
+
 #mce-EMAIL {
   width: 75%;
-  color: #333;
+  color: #666;
   font-size: 3em;
   line-height: 1.5;
   margin: 0 auto;
@@ -28,6 +33,31 @@ body {
   text-align: center;
 }
 
+.white-bg, footer {
+  /*background: rgba(0,0,0,0.5); black */
+  background: rgba(255,255,255,0.75);
+  margin: 0 3em;
+  padding: 1em 1em;
+}
+
 footer {
-  background: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+
+ul {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+li img {
+  max-width: 50% !important;
+  vertical-align: middle !important;
 }
